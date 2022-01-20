@@ -37,7 +37,8 @@ class HomePage extends StatelessWidget {
                   physics: NeverScrollableScrollPhysics(),
                   shrinkWrap: true,
                   itemBuilder: (context,index)=>ListTile(
-                    title: Text('List$index'),
+                    title: Text('List$index',style: TextStyle(fontSize: 22,backgroundColor: Colors.deepPurpleAccent),),
+
                   ),
                   ),
               ),
